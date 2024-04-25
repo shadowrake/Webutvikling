@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="shortcut icon" href="../img/oldman.jpg">
+        <title>Semantikk</title>
+    </head>
+    <body>
+        <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Oppgave1</a></li>
+            <li><a href="../sider/artikkel.html">Oppgave2</a></li>
+            <li><a href="../sider/design-vs-innhold.html">Oppgave3</a></li>
+            <li><a href="../sider/webserver.html">Oppgave4</a></li>
+            <li><a href="../sider/semantikk.html">Oppgave5</a></li>
+            <li><a href="../css/main.css">Oppgave6</a></li>
+            <li><a href="../sider/box-modellen.html">Oppgave7</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <figure>
+            <p>
+                Dato: 03.09.2019
+            </p>
+            <h1>
+                Semantikk og ny struktur
+            </h1>
+            <img id="sem" src="../img/sematikk.jpg" alt="">
+            <figcaption>
+
+
+
+
+                <h2>
+                    Min mening
+                </h2>
+
+                <p>
+                    De nye HTML5 tagene er til for å gjøre formateringen enklere å se på
+                    og skaper en mer direkte og enklere måte å skrive html forstårlig.
+                    la oss ta for oss main tagen den fungere som en "warp around" for hele artikkel
+                    delen, mens før for å få en "wrap around" måtte vi skrive <code><.div class="warp"><./div></code>,
+                    dette er en veldig tungvint måte å skrive på, dette gjorde at vi måtte definere classen
+                    og ikke tagen vis vi skulle gjøre om kun den som feks med styleing, mens nå med main trenger vi teknisksett ikke
+                    en klasse eller id fordi main er allerede er predefinert som en "wrapper".
+                </p>
+
+                <br><br>
+
+                <img src="../img/sem2.png" alt="">
+
+                <h2>
+                    Gammelt VS nytt
+                </h2>
+
+                <p>
+                    De nye HTML5 tagene gjør så det ikke p inne i span inne i div inne i en div.
+                    Men heller p inne i en article inne i en main tag.
+                    Som gjør jobben om å strukurer HTML arket enklere og mer forstårlig.
+                    Som vis man har <br> "<.div><.div><.span><.p><./p><./span><./div><./div>"<br>
+                    så er dette veldig rotete og ikke veldig lesbart men vis man heller har
+                    <br>"<.main><.article><.p><./p><./article><./main>"<sup>*1</sup><br>
+                    så kan man se akkurat hvori strukturen man har sitt content. det er også enklere å style de nye tagsa fordi
+                    før måtte vi bruke forskjellige classes eller id for style de forskjellige divsa,
+                    men nå har vi en mer simple struktur som er enkelere og differere.
+                </p>
+
+                <br><br>
+
+
+                <h2>Bilde kilder</h2>
+                
+                    <a href="https://i.pinimg.com/originals/7b/e3/74/7be3745135a5d0a028eea26237762899.jpg">Semantikk bilde</a>
+
+                    <a href="https://internetingishard.com/html-and-css/semantic-html/semantic-html-ffab7c.png">Semantikk gammelt vs nytt</a>
+
+
+                <h4>*1</h4>
+                <p>(punktumene er for å ikke skrive en gyldig kode, for lettere illustrere koden)</p>
+            </figcaption>
+        </figure>
+    </main>
+
+    <footer id="lang">
+        <ul>
+            <li><a href="mailto:herman.kristiansen@hiof.no?subject=Hello%20there%20mister">herman.kristiansen@hiof.no</a></li>
+            <li>Herman Kristiansen</li>
+            <li>2019</li>
+        </ul>
+    </footer>
+    </body>
+</html>
+
+
+<!-- herman kristiansen 2019 -->
